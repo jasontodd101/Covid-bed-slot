@@ -93,6 +93,7 @@ DELIMITER ;
 
 CREATE TABLE `hospitaluser` (
   `id` int(11) NOT NULL,
+  -- `srfid` varchar(50) NOT NULL,
   `hcode` varchar(20) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(1000) NOT NULL
