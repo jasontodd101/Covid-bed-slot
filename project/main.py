@@ -331,7 +331,7 @@ def slotbooking():
                 seat=d.normalbed
                 print(seat)
                 ar=Hospitaldata.query.filter_by(hcode=code).first()
-                ar.normalbed=seat-1
+                ar.normalbed=seat-0.5
                 db.session.commit()
                 
             
